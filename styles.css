@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 50% 30%;
-  margin-left: 120px;
+  margin-left: 250px;
   grid-gap: 2em;
 }
 * {
@@ -14,22 +14,22 @@
   position: fixed;
   left: 0;
   height: 100%;
-  width: 120px;
+  width: 250px;
   background: #290255;
 }
 .sidebar Header {
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   color: white;
-  line-height: 45px;
+  line-height: 100px;
 }
 .sidebar ul a {
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 25px;
-  font-size: 10px;
+  line-height: 50px;
+  font-size: 20px;
   color: white;
-  padding-left: 10px;
+  padding-left: 20px;
   box-sizing: border-box;
 }
